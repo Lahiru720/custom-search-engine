@@ -10,10 +10,51 @@
   
  /* * == Base styles | Utilities */
 
- 
+
+ :root{
+    font-size: 14px;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.small{
+    font-size: 13px;
+}
  
  /* * == Site-wide | Layout */
-  
+ a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    display: flex;
+}
+
+header a{
+    color: rgba(0,0,0,.87);
+}
+
+header #sign-in{
+    width: 80px;
+    height: 36px;
+    background: #1a73e8;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 9px 15px;
+    margin: 0 8px;
+    color: white;
+}
  /* * == Page specific */
  
  /* * == Key frames  */
