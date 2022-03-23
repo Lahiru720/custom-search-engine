@@ -36,7 +36,6 @@
 a:hover{
     text-decoration: underline;
 }
-
 header{
     display: flex;
 }
@@ -55,6 +54,26 @@ header #sign-in{
     margin: 0 8px;
     color: white;
 }
+
+header #sign-in:hover{
+    text-decoration: none;
+    background: #2b7de9;
+    box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15%);     
+}
+
+header #btn-app{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+}
+header #btn-app:hover{
+    background: #1a73e8;
+}
+header #btn-app svg{
+   fill: #5f6368;
+}
+
  /* * == Page specific */
  
  /* * == Key frames  */
