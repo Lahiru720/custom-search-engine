@@ -78,6 +78,20 @@ header #btn-app:hover{
 header #btn-app svg{
    fill: #5f6368;
 }
+footer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f2f2f2;
+    color: #70757a;
+
+}
+footer #country{
+    padding: 15px 30px;
+    font-size: 15px;
+  
+}
 
  /* * == Page specific */
  
