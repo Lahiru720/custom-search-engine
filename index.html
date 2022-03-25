@@ -8,6 +8,37 @@
     <link rel="icon" href="image/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="node_modules/reset.css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+          @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+.wrap {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 1rem;
+  font-family: 'Playfair Display', serif;
+}
+h1 {
+  font-size: 3rem;
+}
+p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+h1, p {
+  margin-bottom: 2rem;
+}
+a {
+  color: #0bd;
+}
+.btn {
+  background: #0bd;
+  padding: 0px 0px;
+  border-radius: 5px;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+    </style>
 </head>
 <body>
     <header>
@@ -41,6 +72,28 @@
             <a href="https://www.google.com/setprefs?sig=0_jeySmUYsqLKn-4pcDYtzntBmU-M%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwiN9LiVgeH2AhV9r1YBHRSWDj0Q2ZgBCA8">தமிழ்</a>
         </div>
     </main>
+  
+    
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.3.4/lib/darkmode-js.min.js"></script>
+
+   <script>
+       const options = {
+bottom: '100px', // default: '32px'
+right: '20px', // default: '32px'
+left: 'unset', // default: 'unset'
+time: '0.5s', // default: '0.3s'
+mixColor: '#fff', // default: '#fff'
+backgroundColor: '#fff',  // default: '#fff'
+buttonColorDark: '#100f2c',  // default: '#100f2c'
+buttonColorLight: '#fff', // default: '#fff'
+saveInCookies: false, // default: true,
+label: '🌓', // default: ''
+autoMatchOsTheme: true // default: true
+}
+
+const darkmode = new Darkmode(options);
+darkmode.showWidget();
+   </script>
     <footer>
         <div id="country">Sri Lanka</div>
         <div id="links">
@@ -57,5 +110,8 @@
             </div>
         </div>
     </footer>
+
+
+  
 </body>
 </html>
