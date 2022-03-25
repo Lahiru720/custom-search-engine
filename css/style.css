@@ -85,12 +85,28 @@ footer{
     bottom: 0;
     background-color: #f2f2f2;
     color: #70757a;
+    
 
 }
 footer #country{
     padding: 15px 30px;
     font-size: 15px;
-  
+  border-bottom: 1px solid #dadce0;
+
+}
+footer #links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+footer #links> div{
+    display: flex;
+
+}
+footer #links > div a{
+    padding: 15px;
+    color: inherit;
 }
 
  /* * == Page specific */
