@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="image/682665_favicon_google_logo_new_icon.svg" type="image/x-icon">
+    <title>Google</title>
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="node_modules/reset.css/reset.css">
-    <!-- <link rel="stylesheet" href="node_modules/reset.css/"> -->
     <link rel="stylesheet" href="css/style.css">
-    <title>Custom Search Engine</title>
 </head>
 <body>
     <header>
@@ -20,39 +19,42 @@
         <a id="sign-in" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAmgQ">Sign in</a>
     </header>
     <main>
-        <div>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9NoMhnPtxSSIfx0J6kyLlpASpJUv7xV2zkQuABbmAH1FcKCKBNGVgiHn8ndQNC8e1v8s&usqp=CAU" alt="google logo">
+        <div id="logo-wrapper">
+            <img src="image/google-logo.png" alt="Google Logo">
         </div>
         <div>
             <form method="GET" action="http://google.lk/search" enctype="application/x-www-form-urlencoded">
-                <div><input type="text" name="q"></div>
-                <div><button>Google Search <button></button>I'm feeling lucky</button></div>
+                <div id="search-wrapper">
+                    <div id="icon-search">
+                        <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+                    </div>
+                    <input type="text" name="q">
+                </div>
+                <div>
+                    <button>Google Search</button>
+                    <button type="button">I'm Feeling Lucky</button>
+                </div>
             </form>
         </div>
         <div>
             Google offered in: සිංහල தமிழ்
         </div>
     </main>
-
-
     <footer>
         <div id="country">Sri Lanka</div>
         <div id="links">
             <div>
-
                 <a href="https://about.google/?utm_source=google-LK&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
-            <a href="https://ads.google.com/intl/en_lk/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
-            <a href="https://www.google.lk/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a>
-            <a href="https://www.google.com/search/howsearchworks/?fg=1">How search works</a>
+                <a href="https://www.google.com/intl/en_lk/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+                <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
+                <a href="https://google.com/search/howsearchworks/?fg=1">How Search works</a>
             </div>
-            
             <div>
-                <a href="https://policies.google.com/privacy?hl=en-LK&fg=1">Provacy</a>
-            <a href="https://policies.google.com/terms?hl=en-LK&fg=1">Terms</a>
-            <a href="javascript:void(0)">Settings</a>
+                <a href="https://policies.google.com/privacy?hl=en-LK&fg=1">Privacy</a>
+                <a href="https://policies.google.com/terms?hl=en-LK&fg=1">Terms</a>
+                <a href="javascript:void(0)">Settings</a>
             </div>
         </div>
     </footer>
-    
 </body>
 </html>
