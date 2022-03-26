@@ -47,10 +47,14 @@ header{
    justify-content: flex-end; 
    align-items: center;
    padding: 6px;
+   background-color: rgb(75, 72, 72);
+/* color: white; */
+  
 }
 
 header a{
-    color: rgba(0,0,0,.87);
+    color: rgba(233, 233, 233, 0.87);
+    text-decoration: none;
 }
 
 header #sign-in{
@@ -116,6 +120,7 @@ main form #search-wrapper{
     border: 1px solid #dfe1e5;
     border-radius: 24px;
     align-items: center;
+    background-color: #d1d4d8;
 }
 
 main form #search-wrapper:hover{
@@ -183,7 +188,7 @@ footer{
     position: fixed;
     left: 0;
     right: 0;
-    background-color: #f2f2f2;
+    background-color: #353434;
     bottom: 0;
     color: #70757a;
 }
