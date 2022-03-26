@@ -48,10 +48,13 @@ a {
 <body>
   <header>
       <!-- <a href="" style="justify-content: flex-end;display: flex;align-items: center;">Lahiryu san</a>   -->
+
+ 
     
         <a class="small" href="https://mail.google.com/mail/&ogbl">Mail</a>
         <a class="small" href="https://www.google.lk/imghp?hl=en&ogbl">Images</a>
      
+        
         <div id="btn-app">
             <svg focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
         </div>
@@ -70,6 +73,8 @@ a {
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
+
+      
       <div class="carousel-inner" style="height: 535px;">
         <div class="carousel-item active" data-bs-interval="2000" style="height: 440px;">
           <img src="image/4.jpg" class="d-block w-100" alt="...">
@@ -82,7 +87,7 @@ a {
           <img src="image/10.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <!-- <h5>Second slide label</h5> -->
-            <p style="padding-bottom: 40px;color: #fff;font-family: 'Open Sans', sans-serif;">Lotus rower Colombo | Sri lanka</p>
+            <p style="padding-bottom: 40px;color: #fff;font-family: 'Open Sans', sans-serif;">Lotus tower Colombo | Sri lanka</p>
           </div>
         </div>
         <div class="carousel-item">
@@ -92,8 +97,71 @@ a {
             <p style="padding-bottom: 40px;color: #fff;font-family: 'Open Sans', sans-serif;">Sydney opera house | Australia</p>
           </div>
         </div>
-      
-       
+        <style>
+     
+          
+          .sidebar {
+            height: 100%;
+            width: 160px;
+            position: fixed;
+            /* top: 0; */
+            z-index: 1;
+            /* left: 0; */
+            right: 0;
+            top: 40;
+            bottom: 40;
+            width: 300px;
+            background-color: transparent;
+            /* border-left: 1px solid rgb(88, 87, 87); */
+            overflow-x: hidden;
+            padding-top: 16px;
+          }
+          
+          .sidebar a {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #818181;
+            display: block;
+          }
+          
+          .sidebar a:hover {
+            color: #f1f1f1;
+          }
+          
+          .main {
+            margin-left: 160px; /* Same as the width of the sidenav */
+            padding: 0px 10px;
+          }
+          
+          @media screen and (max-height: 450px) {
+            .sidebar {padding-top: 15px;}
+            .sidebar a {font-size: 18px;}
+            .sidebar{
+              display: none;
+            }
+            .trends{
+              display: none;
+            }
+          }
+          </style>
+        <div class="sidebar">
+         
+
+          <div class="trends" style="width: 270px;height: 400px;background-color: rgb(230, 230, 230);right: 0;border-radius: 25px;opacity: .6;">
+<h3 style="padding-top: 20px;font-weight: bold;">Trends for you</h3>
+
+<a href=""><img src="https://www.ask.com/wp-content/uploads/sites/3/2022/03/fort-myers-florida-fort-beaches.png?w=150&h=150&crop=1" width="50px" alt=""><span style="font-size: 10px;"> Ask Getaway: A Guide to Fort Myers</span></a>
+
+<a href=""><img src="https://www.ask.com/wp-content/uploads/sites/3/2022/03/eb37224efc9a788d3dbb7bf0a0fb531a.png?w=150&h=150&crop=1" width="50px" alt=""><span style="font-size: 10px;"> Best St. Patrick’s Day Movies to Fill</span></a>
+
+<a href=""><img src="https://www.ask.com/wp-content/uploads/sites/3/2022/03/green-cocktails.png?w=150&h=150&crop=1" width="50px" alt=""><span style="font-size: 10px;"> Seasonal Sips: 5 Green Cocktails</span></a>
+
+<a href=""><img src="https://www.ask.com/wp-content/uploads/sites/3/2022/03/GettyImages-1384954195.jpg?w=150&h=150&crop=1" width="50px" alt=""><span style="font-size: 10px;"> Award Shows Aren’t as Fun</span></a>
+
+<a href=""><img src="https://www.ask.com/wp-content/uploads/sites/3/2022/03/7f63113e528d4188df6c2999cccaba29.png?w=150&h=150&crop=1" width="50px" alt=""><span style="font-size: 10px;"> Why Tanking in the NBA</span></a>
+          </div>
+        </div>
         <main style="z-index: 2;">
           <div id="logo-wrapper">
             <img src="image/telesca3.png" alt="Google Logo">
