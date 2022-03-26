@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="image/tlogo2.png" type="image/x-icon">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/js/bootstrap.js">
     <title>telesco | search results
@@ -46,6 +46,7 @@
   width: 50px;
   height: 50px;
   transition: .5s ease;
+  z-index: 100;
 }
 
 #myBtn:hover {
@@ -124,7 +125,7 @@
     <button style="background-color: transparent;" type= "button" class= "btn btn-primary" data-toggle= "modal" data-target= "#liveModal">
       Maps
      </button>
-
+<h6 style="color: #f1f1f1;display: flex;justify-content: flex-end;">This project is developed only Experimental purpoces only..!</h6>
 
   </div>
 
@@ -160,7 +161,7 @@
   </div>
 </div>
 
- <div class="result-set" style="margin-top: 70px;">
+ <div class="result-set" style="margin-top: 70px;display: flex;justify-content: space-around;">
   <script async src="https://cse.google.com/cse.js?cx=e2208c356d0fa6a7f"></script>
   <div class="gcse-search"></div>
 <!-- <script async src="https://cse.google.com/cse.js?cx=e2208c356d0fa6a7f"></script> -->
@@ -187,7 +188,9 @@
   buttonColorLight: '#fff', // default: '#fff'
   saveInCookies: false, // default: true,
   label: '🌛', // default: ''
-  autoMatchOsTheme: true // default: true
+  autoMatchOsTheme: true, // default: true
+  
+  
 }
 
 const darkmode = new Darkmode(options);
