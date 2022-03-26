@@ -121,15 +121,48 @@ a {
                       position: sticky;
                       width: 200px;
                       /* bottom: 20; */
-                      background-color: yellow;
+                      background-color: transparent;
+                      border: 1px solid black;
+                      /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
                       padding: 10px;
                       margin-top: -150px;
                       border-radius: 20px;
                       z-index: 9;
+                      height: 200px;
                      margin-right: 1000px;
                       /* font-size: 20px; */
                       display: flex;
+
+                      /* background: rgba(255,255,255,0.4); */
+   /* border-radius: 10px; */
+   border: 1px solid rgba(255,255,255,0.2);
+   /* position: absolute; */
+   backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+   /* display: block;
+   margin: 0 auto; */
                       
+                    }
+                    .input{
+                      font-size: 12px;
+                      color: white;
+                    }
+                    .vmbtn{
+                      background-color: #0bd;
+                      border: none;
+                      /* border-radius: 8px;   */
+                      color: white;
+                      text-decoration: none;
+                      width: 100px;
+                      transition: .5s ease;
+                      height: 100px;
+                    }
+                    .vmbtn:hover{
+                      transition: .5s ease;
+                      color: white;
+                      text-decoration: none;
+                      background-color: transparent;
                     }
                     </style>
               </form>
@@ -138,22 +171,25 @@ a {
 
           <div class="sticky">
 
-            <p>#GoHomeGota</p>
+            <p></p>
 
-
-
-<h1>I'm a <span class="input"></span></h1>
+<br>
+<br>
+<h1 style="font-size: 15px;justify-content: flex-end;">#GoHomeGota <br><br>
+  <a href="https://www.newsfirst.lk/2022/03/14/battle-of-the-hashtags-gohomegota-vs-wearewithgota/" class="vmbtn">View more</a><br>
+  <span class="input"></span></h1>
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
 <script>
          var typed = new Typed('.input', {
-            strings: ["Video Editor", "Programmer", "Web Developer", "Photo Editor"],
+            strings: ["President Gotabaya Rajapaksa can resolve the current economic crisis of Sri Lanka, the Additional Director General of the Government Information Department Milinda Rajapaksa assured on Monday (14)."],
             typeSpeed: 50,
             backSpeed:50,
-            loop:true,
+            loop:false,
         });
 </script>
-          </div>
+
+</div>
 
 
       </main>
