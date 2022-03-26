@@ -10,6 +10,9 @@
     <title>telesco | search results
     </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/js/bootstrap.min.js">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	</head>
     <style>
         @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 
@@ -101,15 +104,63 @@
 </head>
 <body>
 
-
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   
   <div id="navbar">
-    <a class="active" href="index.html"><img src="image/android-chrome-192x192.png" style="border-radius: 50%;width:40px;" alt=""></a>
-    <a href="javascript:void(0)">News</a>
-    <a href="javascript:void(0)">Contact</a>
+    <a class="active" href="index.html"><img src="image/android-chrome-192x192.png" style="border-radius: 50%;width:40px;" alt="">&nbsp&nbsp&nbsp telesca </a>
+    <!-- <a href="javascript:void(0)">Images</a>
+    <a href="javascript:void(0)">Videos</a>
+    <a href="javascript:void(0)">Maps</a>
+    <a href="javascript:void(0)"  data-target= "#liveModal">News</a> -->
+    <button style="background-color: transparent;" type= "button" class= "btn btn-primary" data-toggle= "modal" data-target= "#liveModal">
+      Images
+    </button>
+    <button style="background-color: transparent;" type= "button" class= "btn btn-primary" data-toggle= "modal" data-target= "#liveModal">
+     Videos
+    </button>
+
+    <button style="background-color: transparent;" type= "button" class= "btn btn-primary" data-toggle= "modal" data-target= "#liveModal">
+      Maps
+     </button>
+
+
   </div>
 
- <div class="result-set" style="margin-top: 100px;">
+<div class= "container">
+  <div class= "row">
+    <div class= "col-12">
+      <!-- <h1 class= "alert-info">Live Demo</h1> -->
+      <div class= "w-100"></div>
+      
+
+      <!-- <button type= "button" class= "btn btn-primary" data-toggle= "modal" data-target= "#liveModal">
+        Go Live
+      </button> -->
+      <div class= "modal fade" tabindex="-1" id= "liveModal" role= "dialog" aria-labelledby= "liveModalLabel">
+        <div class= "modal-dialog" role="document">
+          <div class= "modal-content">
+            <div class= "modal-header">
+              <h5 class= "modal-title">Modal Title</h5>
+              <button class= "close" type="button" data-dismiss= "modal" aria-label= "Close">
+                <span aria-hidden= "true">×</span>
+              </button>
+            </div>
+            <div class= "modal-body">
+              <p>
+                Toggle a working modal demo by clicking the button below. It will slide down and fade in from the top of the page.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+ <div class="result-set" style="margin-top: 70px;">
   <script async src="https://cse.google.com/cse.js?cx=e2208c356d0fa6a7f"></script>
   <div class="gcse-search"></div>
 <!-- <script async src="https://cse.google.com/cse.js?cx=e2208c356d0fa6a7f"></script> -->
