@@ -1,7 +1,7 @@
 
 # Custom Search Engine <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-engine-motor-sports-flaticons-lineal-color-flat-icons-2.png"/>
 
-The Repository
+## The Repository
 
 This repository is where i developed the CSE as a inidividual project.This source code is avaliable to everyone under the MIT License
 
